@@ -52,6 +52,8 @@ def check_if_the_answer_is_correct(answer)
   end
 end
 
+
+
 num = 0
 
 while num == 0
