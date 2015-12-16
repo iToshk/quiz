@@ -1,4 +1,4 @@
 # quiz
 ターミナルにて
--ruby quiz.rb
+「ruby quiz.rb」
 のコマンドを使用してクイズを楽しんでください。
