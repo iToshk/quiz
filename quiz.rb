@@ -25,7 +25,7 @@ def question1
   puts '[1] カツレツ'
   puts '[2] コロッケ'
   puts '[3] エビフライ'
-  @right_answer = 2
+  @correct_answer = 2
 end
 
 def question2
@@ -35,7 +35,7 @@ def question2
   puts '[1] きょじん'
   puts '[2] おおかみ'
   puts '[3] だいじゃ'
-  @right_answer = 1
+  @correct_answer = 1
 end
 
 # Note: この場所をquestion1のように変更してクイズを増やそう！
@@ -48,7 +48,7 @@ def check_if_the_answer_is_correct(answer)
   if answer == @correct_answer
     puts 'おめでとうございます！正解です！!'
   else
-    puts "残念！正解は#{@right_answer}です！"
+    puts "残念！正解は#{@correct_answer}です！"
   end
 end
 
